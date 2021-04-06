@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 // All the imports we will be needing are up top. You could add them now or you can add them as you need them.
 
 // Below is our httpOptions, our options could have several properties. 
-// As of now we are attatching our headers. The headers are making sure the correct data typemis being sent over to the database.
+// As of now we are attatching our headers. The headers are making sure the correct data type is being sent over to the database.
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
 };
